@@ -1,4 +1,4 @@
-# 热词解码示例
+# 长语音解码示例
 
 1. 准备模型：分别下载预编训练好的模型文件。
 
@@ -15,7 +15,7 @@ cp 20210601_u2++_conformer_libtorch/* model
 wget https://wenet-1256283475.cos.ap-shanghai.myqcloud.com/models/aishell/slice.wav
 ```
 
-3. 实时语音解码
+3. 实时语音听写解码
 
  * python 版
 
@@ -32,5 +32,6 @@ wget https://wenet-1256283475.cos.ap-shanghai.myqcloud.com/models/aishell/slice.
 4. 长语音转写
 
 ```
+pip install webrtcvad
 python long_wave_transcript.py
 ```
