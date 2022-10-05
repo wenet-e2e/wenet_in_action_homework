@@ -15,6 +15,7 @@ cp tlg/* model
 2. 解码 python 版
 
 ``` sh
+pip3 install wenetruntime
 python lm_python.py model BAC009S0764W0121.wav
 ```
 
